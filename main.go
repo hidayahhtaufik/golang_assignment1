@@ -10,7 +10,7 @@ import (
 func main() {
 	// len(os.Args) = length of args
 	if len(os.Args) <= 1 {
-		fmt.Println("Please enter absen")
+		fmt.Println("Please enter number absen")
 		return
 	}
 	// os.Args[0] = tmp/go-build75578968/b001/exe/main
